@@ -1,0 +1,34 @@
+
+<div class="container">
+    <div class="row">
+         <div class="quiz col-l-12">
+                <!-- <div class="progress">
+                    <div class="progress-bar">
+                        0
+                    </div>
+                </div> -->
+                <% if(question){%>
+                    <form method="POST" action="/game/quiz">
+                    <% for(var i=0;i<question.length;i++){%>
+                        <h2><%= question[i].question  %></h2>
+
+                            <div class="radio">
+                              <label><input type="radio" name="optradio[<%=i%>]" value="0" ><%= question[i].choices[0]  %></label>
+                            </div>
+                            <div class="radio">
+                              <label><input type="radio" name="optradio[<%=i%>]" value="1"><%= question[i].choices[1]  %></label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="optradio[<%=i%>]" value="2"><%= question[i].choices[2]  %></label>
+                            </div>
+                            <div class="radio">
+                                <label><input type="radio" name="optradio[<%=i%>]" value="3"><%= question[i].choices[3]  %></label>
+                            </div>
+                            <input type="hidden" name="answer[<%=i%>]" value="<%= question[i].answer%>"/>
+                    <% } %>
+                    <button type="submit">Submit</button>
+                    </form>
+                <% } %>
+         </div>
+   </div>
+</div>

@@ -1,0 +1,43 @@
+{
+  "name": "api-game",
+  "version": "1.0.0",
+  "description": "This is my API game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffersonJiao/API.git"
+  },
+  "keywords": [
+    "API",
+    "assignment"
+  ],
+  "author": "Jefferson Jiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffersonJiao/API/issues"
+  },
+  "homepage": "https://github.com/JeffersonJiao/API#readme",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "^1.18.2",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "cookie-session": "^2.0.0-beta.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-ejs-layouts": "^2.3.1",
+    "express-messages": "*",
+    "express-session": "^1.15.6",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "^4.13.7",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0",
+    "passport-http": "*",
+    "passport-local": "*",
+    "unirest": "^0.5.1"
+  }
+}

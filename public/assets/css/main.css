@@ -1,0 +1,39 @@
+.login-form{
+    text-align: center;
+}
+
+.login-form form{
+    text-align: left;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px #888;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+#errorList{
+    color: #fff;
+    padding: 3px;
+    padding-left: 10px;
+    text-align: left;
+}
+#errorList li{
+    list-style-type: none;
+    margin: 2px;
+    background-color: #F62459;
+    padding: 3px;
+    border-radius: 4px;
+}
+.notice{
+    padding-top:10px;
+}
+.quiz{
+    width: 100%;
+}
+#quizBtn{
+    margin-top: 10px;
+}
+.quiz input[type="radio"]{
+    margin-right: 10px;
+}

@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3 notice">
+                <% if(success_msg != "") { %>
+                    <div class="alert alert-success">
+                        <%= success_msg %> 
+                    </div>
+                <% } %>
+                <% if(error_msg != "") { %>
+                    <div class="alert alert-danger">
+                        <%= error_msg %> 
+                    </div>
+                <% } %>
+                <% if(error != "") { %>
+                    <div class="alert alert-danger">
+                        <%= error %> 
+                    </div>
+                <% } %>
+        </div>
+    </div>
+</div>
